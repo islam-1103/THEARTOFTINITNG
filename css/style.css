@@ -1,0 +1,196 @@
+.container {
+    max-width: 1320px;
+    margin: auto;
+}
+
+.header {
+    background-color: #000;
+}
+
+.logo {
+    color: #F2C938;
+    font-family: 'Trade Winds', sans-serif;
+    text-decoration: none;
+}
+
+.header-row {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 20px 0 25px;
+}
+
+.nav-list {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-list a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+}
+
+.nav-list a:hover {
+    color: #F2C938;
+}
+
+.phone {
+    display: flex;
+    gap: 10px;
+}
+
+.phone span {
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.book-now {
+    background-color: #F2C938;
+    border: 2px solid #F2C938;
+    outline: none;
+    border-radius: 5px;
+    padding: 12px 37px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.book-now:hover {
+    background-color: #000;
+    color: #F2C938;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+}
+
+.hero {
+    padding-top: 10vh;
+    background: url('../img/car.png') no-repeat center;
+    background-size: cover;
+    min-height: calc(100vh - 94px);
+}
+
+.hero-title {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 85px;
+    font-weight: 700;
+    color: #fff;
+    max-width: 680px;
+}
+
+.hero-description {
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.02em;
+    max-width: 680px;
+    margin: 20px 0 30px;
+}
+
+.hero-actions {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.hero-customers {
+    background: #FFFFFF59;
+    border-radius: 8px;
+    padding: 15px 25px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.hero-users img {
+    margin-right: -20px;
+}
+
+.hero-rating {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-rating span {
+    margin: 0 0 5px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.hero-rating h3 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 34px;
+}
+
+.hero .phone {
+    flex: 1;
+}
+
+.choose {
+    padding: 120px 0;
+    background: #222224;
+}
+
+.choose-row {
+    display: flex;
+    gap: 35px;
+}
+
+.choose-column {
+    text-align: center;
+    color: #fff;
+}
+
+.choose-column h3 {
+    margin: 30px 0 20px;
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 22px;
+}
+
+.choose-column p {
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.choose-content {
+    color: #fff;
+    border-left: 2px solid #3D3D40;
+    padding-left: 35px;
+}
+
+.choose-content h2 {
+    font-family: Ubuntu;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 62px;
+    margin-bottom: 20px;
+}
+
+.choose-content p {
+    font-family: Ubuntu;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+}
